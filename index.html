@@ -1,11 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TestBear Consulting AB - konsult inom testautomatisering</title>
-    <meta
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TestBear Consulting AB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <meta
       name="description"
       content="TODO!"
     />
@@ -80,136 +80,64 @@
     />
     <link rel="manifest" href="assets/manifest.json" />
     <meta name="msapplication-TileColor" content="#f8f4e1" />
-    <meta name="msapplication-TileImage" content="assets/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/icon.png" />
     <meta name="theme-color" content="#f8f4e1" />
-    <style>
-      body {
-        margin: 1rem;
-        font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
-          segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto,
-          arial, sans-serif;
-        background-color: #fff;
-        color: #1f2124;
-      }
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f1f5f9;
+      color: #1e293b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 55vh;
+      text-align: center;
+      padding: 15px;
+    }
 
-      .container {
-        display: flex;
-        flex-direction: column;
-        row-gap: 2rem;
-        width: 100%;
-        max-width: 65ch;
-        margin: 0 auto;
-      }
+    .logo {
+      max-width: 500px;
+      margin-bottom: -140px;
+    }
 
-      header {
-        display: flex;
-        column-gap: 1rem;
-        align-items: center;
-      }
+    h1 {
+      font-size: 2.5em;
+      margin: 10px 0;
+    }
 
-      header h1 {
-        margin: 0;
-      }
+    p {
+      font-size: 1.2em;
+    }
 
-      .subheading {
-        display: block;
-        font-size: 1.2rem;
-        font-weight: 400;
-      }
+    a {
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-      .content p {
-        margin-bottom: 1.5rem;
-      }
+    a:hover {
+      text-decoration: underline;
+    }
 
-      .profile-picture {
-        display: flex;
-      }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
 
-      @media (min-width: 768px) {
-        .profile-picture {
-          justify-content: flex-end;
-        }
-      }
+<img src="assets/logo.png" alt="TestBear Consulting AB Logotyp" class="logo">
+<!-- <h1>TestBear Consulting AB</h1> -->
+<p>IT-konsult inom testautomatisering med fokus Lumera</p>
+<p>Kontakta oss via e-post: <a href="mailto:info@testbear.se">info@testbear.se</a></p>
 
-      .profile-picture img {
-        border-radius: 50%;
-      }
+<footer>
+  &copy; 2025 TestBear Consulting AB
+</footer>
 
-      .button {
-        padding: 0.5rem 0.75rem;
-        border-radius: 0.3rem;
-        color: #f8f4e1;
-        background-color: #543310;
-        text-decoration: none;
-        transition: background-color 0.15s ease-in-out;
-      }
-
-      .button:hover {
-        background-color: #42280d;
-      }
-
-      .profile-button {
-        display: inline-block;
-      }
-
-      footer {
-        font-size: 0.8rem;
-      }
-
-      .contact {
-        list-style: none;
-        padding: 0;
-        display: flex;
-        column-gap: 2rem;
-        row-gap: 1rem;
-        flex-wrap: wrap;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <img
-          src="assets/logo.jpg"
-          width="56"
-          height="56"
-          alt="TestBear AB logo"
-        />
-        <h1>
-          TestBear Consulting AB
-          <span class="subheading">konsult inom testautomatisering</span>
-        </h1>
-      </header>
-      <main>
-        <article class="content">
-          <p>
-            TestBear Consulting AB är bolaget...
-          </p>
-          <p>Just nu är jag på uppdrag hos Skandia.</p>
-          <!-- <p>
-            <a
-              href=""
-              class="button profile-button"
-              >Fullständig konsultprofil (pdf)</a
-            >
-          </p> -->
-        </article>
-        <article class="profile-picture">
-          <img
-            src="assets/sebastian.webp"
-            alt="Bild på Sebastian Sundström"
-            width="125"
-            height="125"
-          />
-        </article>
-      </main>
-      <footer>
-        <ul class="contact">
-          <li>Mail: <a href="mailto:sebastian@testbear.se">sebastian@testbear.se</a></li>
-          <li>Telefon: <a href="tel:+46702453031">+46 70 245 30 31</a></li>
-          <li>Organisationsnummer: 559279-4555</li>
-        </ul>
-      </footer>
-    </div>
-  </body>
+</body>
 </html>
